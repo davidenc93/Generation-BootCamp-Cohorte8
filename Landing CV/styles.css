@@ -1,0 +1,249 @@
+body {
+    background-color: #39393a;
+    margin: 0;
+}
+
+/* Barra de navegación */
+.menu {
+    background-color: #297373;
+    opacity: 0.8;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navElements a {
+    color: #C4C4C4;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.5;
+    transition: color .5s;
+}
+
+.navElements :hover {
+    color: #C4C4C4;
+    opacity: 1;
+}
+
+/* .acercaEle a {
+    color: #85ffc7;
+    text-decoration: none;
+    font-size: 20px;
+} 
+
+NO SE COMO PONER EN OTRO COLOR ESTE ELEMENTO*/
+
+.cajas {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Banner de bienvenida */
+
+.bannerBienvenida {
+    background-image: url(Images/bannerBienvenida.png);
+    background-size: cover;
+    height: 808px;
+}
+
+.cajaRedes {
+    display: flex;
+    gap:30px;
+    position: absolute;
+    width: 80px;
+    height: 64.36px;
+    left: 425px;
+    top: 680px;
+    list-style: none;
+}
+
+/* Acerca de mí */
+
+.acercaDeMi {
+    background-image: url(Images/rectangleAcercaDeMi.png);
+    background-size: cover;
+    height: 917px;
+    display: flex;
+    justify-content: center;
+    }
+
+.rectangleAcercaDeMi {
+    background-color: #39393a;
+    opacity: 0.8;
+    height: 757px;
+    width: 908px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+
+.rectangleAcercaDeMi h2 {
+    color: #85ffc7;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 80px;
+}
+
+.rectangleAcercaDeMi p {
+    color: #ffffff;
+    width: 750px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.desCv {
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    border: #85ffc7;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 15px 45px;
+    background-color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;  
+}
+
+/* a .desCv :hover {
+    background-color: #ff8552;
+}
+No queda el hover en el botón  */
+
+/* Competencias */
+
+.competencias {
+    background-image: url(Images/rectangleCompetencias.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.competencias h2 {
+    color: #85ffc7;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.competencias h3 {
+    color: #ff8552;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tecnologias {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 30px;
+    margin-bottom: 50px; 
+}
+.datosCss, .datosHtml, .datosJs, .datosPython, .datosCs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;   
+}
+
+.datosCss h3, .datosHtml h3, .datosJs h3, .datosPython h3, .datosCs h3 {
+    color: #ffffff;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 30px; 
+}
+
+.datosIngles, .datosPhotoshop, .datosVentas, .datosLicitaciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.datosIngles h3, .datosPhotoshop h3, .datosVentas h3, .datosLicitaciones h3 {
+    color: #ffffff;
+}
+
+/* Formación */
+
+.formacion {
+    background-image: url(Images/rectangleFormacion.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.rectangleFormacion {
+    background-color: #39393a;
+    opacity: 0.8;
+    height: 650px;
+    width: 908px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangleFormacion h2 {
+    color: #85ffc7;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+
+}
+
+.contenidoFormacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    height: 450px;
+    width: 908px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.contenidoFormacionIzq {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    height: 452px;
+}
+
+.generation {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+}
+
+.contenidoFormacion h3 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.contenidoFormacion h4 {
+    color: #85ffc7;
+    font-size: 18px;
+}
+
+
+
+

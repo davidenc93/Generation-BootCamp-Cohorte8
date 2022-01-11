@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    background-color: #e48b8b;   
+    height: 50px;
+    
+}
+
+.menu ul {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.elemento {
+    display: inline;
+    margin: 0 20px;
+}
+
+.elemento a {
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+}
