@@ -14,7 +14,25 @@ for(let i = 0; i < parrafos.length; i++) {
 let email = document.getElementById("email");
 let password = document.getElementById("password");
 
+
+
 function getInformation() {
     console.log(email.value);
     console.log(password.value);
+
+
+
 }
+
+
+let ropa =
+   
+    medida: [s,m,l,xl]
+    diseño: [polo,redondo,larga]
+    precio: 1500
+    marca:banana
+
+    console.log(ropa)
+    
+    
+} 
